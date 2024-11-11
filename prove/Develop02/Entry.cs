@@ -16,9 +16,7 @@ public class Entry{
 
     }
 
-    public Entry(){
-        
-    }
+    
 
     public Entry(string one, string two, string three){
         date = one;
