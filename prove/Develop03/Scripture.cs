@@ -37,9 +37,10 @@ public class Scripture{
 
     public void display(){
         Console.WriteLine();
-        Console.WriteLine(title.getTitle());
+        Console.WriteLine(title.getName());
         foreach(Verse v in scripture){
             v.display();
+            Console.WriteLine();
         }
     }
 
