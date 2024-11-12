@@ -4,7 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+        Scripture scripture = new Scripture();
         Console.Clear();
+
         
         Console.WriteLine("Welcome to scripture memoriziation!");
         Console.WriteLine("Today we will be studying Alma 32! Alma 32 is 43 verses long!");
@@ -28,8 +30,14 @@ class Program
 
             }
         }
-
-        Scripture scripture = new Scripture(x,y);
+        if ( x == y ){
+             scripture = new Scripture(x);
+        }
+        else{
+             scripture = new Scripture(x,y);
+        }
+        
+        
 
         string ans = "";
         scripture.display();

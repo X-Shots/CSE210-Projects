@@ -9,6 +9,9 @@ public class Scripture{
     private int first;
     private int last;
 
+    public Scripture(){
+
+    }
     public Scripture(int x, int y){
         first = x;
         last = y;
@@ -20,6 +23,17 @@ public class Scripture{
         title = new Title(x,y);
 
         
+    }
+
+    public Scripture(int x){
+        first = x;
+        
+        string[] lines = System.IO.File.ReadAllLines("Alma32.txt");
+        
+            string[] split = lines[x - 1].Split("*");
+            scripture.Add(new Verse(Int32.Parse(split[0]),split[1]));
+        
+        title = new Title(x);
     }
     
     public int getFirst(){
