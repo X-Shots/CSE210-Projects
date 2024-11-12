@@ -1,3 +1,5 @@
+// showed creativity by adding a counter that reports the total amount of journal reposnses weather they are saved or not.
+
 using System;
 using System.Globalization;
 using System.Runtime.InteropServices.Marshalling;

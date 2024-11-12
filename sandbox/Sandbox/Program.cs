@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        Lol lol = new Lol();
+        Console.WriteLine(lol.crazy(4));
     }
 }
