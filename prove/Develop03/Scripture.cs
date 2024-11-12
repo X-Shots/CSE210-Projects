@@ -1,23 +1,43 @@
+using System.Security.Cryptography.X509Certificates;
+
 public class Scripture{
     private static List<Verse> scripture = new List<Verse>();
     private Verse thisVerse = new Verse();
-    private string title;
+    
+    private Title title;
+
+    private int first;
+    private int last;
 
     public Scripture(int x, int y){
+        first = x;
+        last = y;
         string[] lines = System.IO.File.ReadAllLines("Alma32.txt");
         for(int i = x - 1; i < y; i++){
             string[] split = lines[i].Split("*");
             scripture.Add(new Verse(Int32.Parse(split[0]),split[1]));
         }
-        title = $"Alma 32 {x} - {y}";
+        title = new Title(x,y);
+
+        
     }
+    
+    public int getFirst(){
+        return first;
+    }
+
+    public int getLast(){
+        return last;
+    }
+    
+    
     
 
     
 
     public void display(){
         Console.WriteLine();
-        Console.WriteLine(title);
+        Console.WriteLine(title.getTitle());
         foreach(Verse v in scripture){
             v.display();
         }
