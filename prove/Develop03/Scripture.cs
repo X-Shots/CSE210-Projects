@@ -1,17 +1,18 @@
 using System.Security.Cryptography.X509Certificates;
 
 public class Scripture{
+    // chsnge nsme to verses
     private static List<Verse> scripture = new List<Verse>();
-    private Verse thisVerse = new Verse();
     
-    private Title title;
+    
+    private string title;
 
     private int first;
     private int last;
 
     public Scripture(){
 
-    }
+     }
     public Scripture(int x, int y){
         first = x;
         last = y;
@@ -20,7 +21,7 @@ public class Scripture{
             string[] split = lines[i].Split("*");
             scripture.Add(new Verse(Int32.Parse(split[0]),split[1]));
         }
-        title = new Title(x,y);
+        title = $"Alma 32: {x} - {y}";
 
         
     }
@@ -33,7 +34,7 @@ public class Scripture{
             string[] split = lines[x - 1].Split("*");
             scripture.Add(new Verse(Int32.Parse(split[0]),split[1]));
         
-        title = new Title(x);
+        title = $"Alma 32: {x}";
     }
     
     public int getFirst(){
@@ -51,7 +52,7 @@ public class Scripture{
 
     public void display(){
         Console.WriteLine();
-        Console.WriteLine(title.getName());
+        Console.WriteLine(title);
         foreach(Verse v in scripture){
             v.display();
             Console.WriteLine();
