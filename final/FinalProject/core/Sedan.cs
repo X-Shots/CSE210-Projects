@@ -3,7 +3,7 @@ public class Sedan : Car {
     private int trunkSpace;
     private bool isHatchback;
 
-    public Sedan(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath, int MPG, int trunkSpace, bool isHatchback) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath){
+    public Sedan(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath,int index, int MPG, int trunkSpace, bool isHatchback) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath, index){
         this.MPG = MPG;
         this.trunkSpace = trunkSpace;
         this.isHatchback = isHatchback;
@@ -24,5 +24,9 @@ public class Sedan : Car {
    public override string getHTMLDetails(){
         return base.getHTMLDetails() + $"</p>--</p>Sedan specifications: </p>~~Miles Per Gallon: {MPG} </p> ~~Trunk Space: {trunkSpace} </p> ~~Has a hatchback: {isHatchback}</p>";
    }
+    public override string getBasicDetails()
+    {
+        return base.getBasicDetails() + $"\nCar Type: Sedan";
+    }
 
 }

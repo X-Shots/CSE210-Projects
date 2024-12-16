@@ -3,7 +3,7 @@ public class Boat : Sedan{
     private int weight;
     private string boostType;
 
-    public Boat(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath, int MPG, int trunkSpace, bool isHatchback, int HP, int weight, string boostType) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath, MPG, trunkSpace, isHatchback){
+    public Boat(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath,int index, int MPG, int trunkSpace, bool isHatchback, int HP, int weight, string boostType) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath, index, MPG, trunkSpace, isHatchback){
         this.HP = HP;
         this.weight = weight;
         this.boostType = boostType;
@@ -26,6 +26,10 @@ public class Boat : Sedan{
     public override string getHTMLDetails()
     {
         return base.getHTMLDetails() + $"</p>--</p> Boat Specifications:</p>~~Horse Power: {HP}</p>~~Curb Weight: {weight}</p>~~Boost Type: {boostType}";
+    }
+    public override string getBasicDetails()
+    {
+        return base.getBasicDetails() + $"~~Boat";
     }
 
 

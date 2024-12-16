@@ -1,19 +1,19 @@
 using System;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices.Marshalling;
 
 class Program
 {
     static void Main(string[] args)
     {
-        //Console.WriteLine(Environment.CurrentDirectory);
-        
-       // Sedan test = new Sedan(32000, "toyota", "camry",2024, "gray","one of the most reliable cars ever","CarPhotos/camry.png", 58, 40, false);
-       // CarVeiwer.ShowCarDetails(test);
-        //CarVeiwer.veiwWithText(test);
-        Garage.initialize();
-        //CarVeiwer.veiwWithText(Garage.getCar(11));
-        
-        //CarVeiwer.veiwWithText(Garage.getCar(2));
+        Welcome.welcome();
+        string ans = "";
+        do{
+            Welcome.options();
+            Console.WriteLine("What would you like to do? type 'quit' to quit");
+            ans = Console.ReadLine();
+            Actions.action(ans);
+        }while(ans != "quit");
     }
 
 }

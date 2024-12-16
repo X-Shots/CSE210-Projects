@@ -1,7 +1,7 @@
 public class Spyder : Coupe{
     private string topType;
     private string engineLayout;
-    public Spyder(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath, int headRoom, int topSpeed, int numProduced, string topType, string engineLayout ) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath, headRoom, topSpeed, numProduced){
+    public Spyder(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath,int index, int headRoom, int topSpeed, int numProduced, string topType, string engineLayout ) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath, headRoom, topSpeed, numProduced,index){
         this.topType = topType;
         this.engineLayout = engineLayout;
     }
@@ -17,6 +17,10 @@ public class Spyder : Coupe{
     }
     public string getEngineLayout(){
         return engineLayout;
+    }
+    public override string getBasicDetails()
+    {
+        return base.getBasicDetails() + "~~Spyder";
     }
 
 }

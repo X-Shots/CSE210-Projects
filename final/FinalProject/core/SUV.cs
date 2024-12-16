@@ -3,7 +3,7 @@ public class SUV : Car{
     private int groundClearence;
     private string driveTrain;
 
-    public SUV(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath, int numSeats, int groundClearence, string driveTrain) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath){
+    public SUV(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath,int index, int numSeats, int groundClearence, string driveTrain) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath,index){
         this.numSeats = numSeats;
         this.groundClearence = groundClearence;
         this.driveTrain = driveTrain;
@@ -25,6 +25,11 @@ public class SUV : Car{
     public override string getHTMLDetails()
     {
         return base.getHTMLDetails() + $"</p> SUV Specifications:</p>~~Number of Seats: {numSeats}</p>~~Ground Clearence: {groundClearence} inches</p>~~Drivetrain: {driveTrain}";
+    }
+
+    public override string getBasicDetails()
+    {
+        return base.getBasicDetails() + $"\nCar Type: SUV";
     }
 
 }

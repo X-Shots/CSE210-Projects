@@ -8,4 +8,15 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+<ItemGroup>
+    <Content Include="CarPhotos\**\*">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+</ItemGroup>
+<ItemGroup>
+  <None Include="Sorted_Cars.txt" CopyToOutputDirectory="PreserveNewest" /> 
+</ItemGroup>
+
+
+
 </Project>

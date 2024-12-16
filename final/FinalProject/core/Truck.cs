@@ -1,7 +1,7 @@
 public class Truck : Car{
     private float bedLength;
     private int towingCapacity;
-    public Truck(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath, float bedLength, int towingCapacity) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath){
+    public Truck(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath,int index, float bedLength, int towingCapacity) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath,index){
         this.bedLength = bedLength;
         this.towingCapacity = towingCapacity;
     }
@@ -17,5 +17,9 @@ public class Truck : Car{
     }
     public int getTowingCapacity(){
         return towingCapacity;
+    }
+    public override string getBasicDetails()
+    {
+        return base.getBasicDetails() + $"\nCar Type: Truck";
     }
 }

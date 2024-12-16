@@ -1,0 +1,26 @@
+coupe~~161395~~Audi~~R8~~2023~~Gray~~The R8 does not have an infotainment system~~CarPhotos/r8.png~~1~~39~~205~~45000~~
+suv~~203200~~Bently~~Bentayga~~2024~~black~~One of the nicest cars I have personally driven~~CarPhotos/Bentayga.png~~2~~5~~7~~AWD~~
+coupe~~3300000~~Bugatti~~Chiron~~2024~~Orange~~Andrew Tate's iconic car~~CarPhotos/chiron.avif~~3~~48~~304~~500~~
+coupe~~4600000~~Bugatti~~Tourbillon~~2026~~Blue~~V16 Engine~~CarPhotos/Tourbillon.jpg~~4~~42~~236~~250~~
+boat~~72130~~Dodge~~Charger SRT Hellcat~~2024~~Green~~Obtained the nickname "boat" because of its large weight and poor handling~~CarPhotos/charger.png~~5~~16~~17~~false~~717~~4575~~Supercharged~~
+coupe~~20295~~Honda~~CR-Z~~2016~~Blue~~Worst blind-spots I have ever seen~~CarPhotos/crz.avif~~6~~37~~130~~2338~~
+coupe~~609000~~Lamborghini~~Revuelto~~2025~~Orange~~6.5L V12 engine~~CarPhotos/Revuelto.webp~~7~~46~~217~~11500
+suv~~237848~~Lamborghini~~Urus~~2024~~Black~~Basically an Audi RS Q8~~CarPhotos/Urus.png~~8~~5~~9~~AWD
+suv~~5505~~Lexus~~Tx 350~~2024~~Gray~~My mother's car~~CarPhotos/tx.png~~9~~7~~8~~AWD
+sedan~~23950~~Mazda~~Mazda 3~~2025~~Blue~~Some people belive that Mazda has passes both Toyota and Honda in terms of reliability~~CarPhotos/mazda3.png~~10~~30~~13~~false~~2
+coupe~~358000~~McLaren~~765LT~~2022~~Orange~~Active rear wing~~CarPhotos/765lt.png~~11~~39~~205~~765~~
+coupe~~2000000~~McLaren~~Speedtail~~2020~~Gray~~Three seats with driver in the middle~~CarPhotos/Speedtail.webp~~12~~36~~250~~106~~
+sedan~~204650~~Mercedes-Benz~~Maybach S-Class~~2025~~Gray~~Has a cooler in the back for Champagne~~CarPhotos/s680.png~~13~~39~~12~~false~~
+sedan~~241650~~Mercedes-Benz~~S 680~~2025~~Gray~~OLED Screens~~CarPhotos/s680s.png~~14~~21~~13~~false~~
+coupe~~241300~~Porsche~~GT3 RS~~2024~~White~~Active Wing~~CarPhotos/gt3.jpg~~15~~38~~198~~5000~~
+sedan~~99400~~Porsche~~Taycan~~2025~~Gray~~Faster than a Tesla Model S~~CarPhotos/taycan.jpg~~16~~80~~13~~false~~
+spyder~~845000~~Porshe~~918 Spyder~~2015~~Gray~~Plug-In Hybrid~~CarPhotos/918Spyder.webp~~17~~34~~214~~918~~Manual hard-top~~Mid-engine~~
+truck~~96340~~Ram~~1500 TRX~~2024~~Sand Blast~~Hellcat engine making 702 Horse Power~~CarPhotos/trx.webp~~18~~5.6~~8100~~
+coupe~~2200000~~Rimac~~Nevera~~2023~~Blue~~Fastest car in reverse~~CarPhotos/rimac.png~~19~~49~~258~~150~~
+sedan~~354750~~Rolls Royce~~Ghost~~2025~~Black~~Made up of around 80% BMW parts~~CarPhotos/Ghost.png~~20~~12~~17~~false
+coupe~~422750~~Rolls Royce~~Spectre~~2025~~Gold~~Doors open backwards~~CarPhotos/Spectre.webp~~21~~40~~155~~2500~~
+truck~~82235~~Tesla~~Cybertruck~~2024~~Steel~~Most hated car on social media~~CarPhotos/cybertruck.png~~22~~6~~10000~~
+sedan~~68490~~Tesla~~Model S~~2024~~Blue~~Can go from 0 to 60 MPH in less than two secconds~~CarPhotos/models.webp~~23~~124~~25~~false~~
+sedan~~44130~~Tesla~~Model Three~~2025~~Red~~No gauge cluster in front of driver~~CarPhotos/model3.png~~24~~40~~21~~false~~
+sedan~~28400~~Toyota~~Camry~~2025~~Blue~~All configurations are hybrid~~CarPhotos/camry.png~~25~~51~~15~~false~~
+sedan~~39995~~Toyota~~GR Corolla~~2025~~Red~~Engine has three cylinders~~CarPhotos/GRCorolla.webp~~26~~22~~18~~true~~

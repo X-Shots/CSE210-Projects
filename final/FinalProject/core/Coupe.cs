@@ -2,13 +2,13 @@ public class Coupe : Car {
     private int headRoom;
     private int topSpeed;
     private int numProduced;
-    public Coupe(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath, int headRoom, int topSpeed, int numProduced) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath){
+    public Coupe(int startingMSRP, string make, string model, int modelYear, string color, string specialFeature, string imagePath,int index, int headRoom, int topSpeed, int numProduced) : base(startingMSRP, make, model, modelYear, color, specialFeature, imagePath, index){
         this.headRoom = headRoom;
         this.topSpeed = topSpeed;
         this.numProduced = numProduced;
     }
     public override string getType(){
-        return "SuperCar";
+        return "Coupe";
     }
     public override string getHTMLDetails()
     {
@@ -24,4 +24,9 @@ public class Coupe : Car {
     public int getNumProduced(){
         return numProduced;
     }
+    public override string getBasicDetails()
+    {
+        return base.getBasicDetails() + $"\nCar Type: Coupe";
+    }
 }
+       
